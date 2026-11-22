@@ -8,7 +8,7 @@ https://plant-care-tracker-eb7cydgfwtfcucbtjzzq5h.streamlit.app/
 
 
 
-🎥 Video Link: https:
+🎥 Video Link: 
 
-//drive.google.com/file/d/15QB784bIfRkVrkSgUnXFqRIAREVZAqHC/view?usp=sharing
+https://drive.google.com/file/d/15QB784bIfRkVrkSgUnXFqRIAREVZAqHC/view?usp=sharing
 

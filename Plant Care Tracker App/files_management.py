@@ -1,10 +1,14 @@
 
 import streamlit as st
 import pandas as pd
+import os
 
 # CSV file path
 PLANTS_FILE = "data/plants.csv"
 CARE_FILE = "data/care_log.csv"
+
+# Create data folder if it does not exist
+os.makedirs("data", exist_ok=True)
 
 # Plant required columns
 required_columns = st.session_state["required_columns"]

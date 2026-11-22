@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import os
@@ -33,6 +34,13 @@ if results.empty:
 # Display number of plants found
 st.write(f"Found {len(results)} plant(s)")
 
+# Default image path
+DEFAULT_IMAGE = os.path.join(
+    os.path.dirname(__file__),
+    "image",
+    "defult.png"
+)
+
 # Display all searched plant
 for i in range(len(results)):
 
@@ -42,9 +50,6 @@ for i in range(len(results)):
     # AI assistance: Helped with displaying plant images and checking the image path before displaying them
     # Get plant image path
     image = results.iloc[i]["Image"]
-
-    # Default image path
-    DEFAULT_IMAGE = "image/defult.png"
 
     # Display image in the first column
     with col1:
